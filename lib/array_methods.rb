@@ -6,8 +6,10 @@ def find_element_index(array, value_to_find)
       return nil 
     elsif array.include?(value_to_find)
     value << array.index(value_to_find)
+    end
     i += 1
   end
+  return value
 end
 
 def find_max_value(array)
