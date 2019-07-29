@@ -1,15 +1,14 @@
 def find_element_index(array, value_to_find)
   i = 0
-  value =[]
   while i < array.length do
     if array.empty?
       return nil
     elsif array[i] == value_to_find
-    value.join(array.index(value_to_find))
+    return array.index(value_to_find))
+    break 
     end
     i += 1
   end
-  return value
 end
 
 def find_max_value(array)
