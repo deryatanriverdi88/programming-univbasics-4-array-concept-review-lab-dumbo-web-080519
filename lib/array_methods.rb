@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
     if array.empty?
       return nil
     elsif array[i] == value_to_find
-    return array.index(value_to_find))
+    return array.index(value_to_find)
     break 
     end
     i += 1
